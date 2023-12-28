@@ -1,0 +1,15 @@
+Americano Rp28.000
+Espresso Rp20.000
+Long Black Rp22.000
+Latte Rp33.000
+Mocha Rp35.000
+Cappucino Rp33.000
+Macchiato Rp34.000
+Matcha Latte Rp30.000
+Bluecino Rp32.000
+Marshlatte Rp34.000
+Coffee Cream Rp25.000
+Brownies Rp20.000
+Coffee Cake Rp22.000
+Caramel Pie Rp21.000
+Tiramisu Rp22.000
