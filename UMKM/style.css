@@ -152,6 +152,16 @@
 /* section 2 */
 
 /* section 3 */
+.card-hover:hover {
+    /* padding: 10px; */
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.card-hover {
+    transition: 0.5s ease-in-out !important;
+}
+
 .bg-sec-3 {
     background: linear-gradient(#fff 20%, #BF947A);
 }
