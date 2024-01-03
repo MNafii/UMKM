@@ -16,7 +16,7 @@
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-accent fixed-top">
-        <div class="container">
+        <div class="container-fluid container-navbar">
             <a class="navbar-brand" href="#"><img src="img/assets/assets/Logo_coffee1.png" width="150px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +48,9 @@
     <!-- section 1 -->
     <section id="home">
         <div id="produkHighlight" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner bg-accent pb-3">
+            <div class="carousel-inner bg-accent vh-100 pb-3 d-flex align-items-center">
                 <div class="carousel-item bg-accent active mb-3" data-bs-interval="4000">
-                    <div class="container">
+                    <div class="container-carousel">
                         <div class="row" style="margin: 100px 0;">
                             <div class="col-lg-8 d-flex flex-column justify-content-center">
                                 <p class="text-bold text-color-satu text-sec-1">Secangkir Kopi Tiap Hari
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="carousel-item bg-accent mb-3" data-bs-interval="4000">
-                    <div class="container">
+                    <div class="container-carousel">
                         <div class="row" style="margin: 100px 0;">
                             <div class="col-lg-8 d-flex flex-column justify-content-center">
                                 <p class="text-bold text-color-satu text-sec-1">Biji Kopi Pilihan</p>
@@ -77,12 +77,13 @@
                 </div>
 
                 <div class="carousel-item bg-accent" data-bs-interval="4000">
-                    <div class="container">
+                    <div class="container-carousel">
                         <div class="row" style="margin: 100px 0;">
                             <div class="col-lg-8 d-flex flex-column justify-content-center">
-                                <p class="text-bold text-color-satu text-sec-1">Untuk Rasa
+                                <p class="text-bold text-color-satu     text-sec-1">Untuk Rasa
                                     Terbaik</p>
-                                <p class="fs-2 text-medium text-color-dua">Biji kopi diolah dengan sempurna untuk tetap mempertahankan kualitas</p>
+                                <p class="fs-2 text-medium text-color-dua">Biji kopi diolah dengan sempurna untuk tetap
+                                    mempertahankan kualitas</p>
                             </div>
                             <img src="img/assets/assets/carousel-3.png" class="col-lg-4 object-fit-contain">
                         </div>
@@ -116,7 +117,8 @@
                             Didirikan pada tahun 2020, CoffeeCrafts adalah UMKM dengan produk kopi yang memiliki
                             cita-cita untuk membuat kopi spesial terbaik untuk semua pelanggan. Harapan tersebut sejalan
                             dengan nama kami, yaitu Coffee yang berarti kopi dan Crafts yang berarti kerajinan. Dari
-                            situlah, kami ingin membuat karya terbaik yang kami nyatakan dalam secangkir kopi. <br class="mb-2"> Kami
+                            situlah, kami ingin membuat karya terbaik yang kami nyatakan dalam secangkir kopi. <br
+                                class="mb-2"> Kami
                             ingin kehadiran kami bisa membawa suka cita bagi semua penikmat CoffeeCrafts.
                             Biji kopi pilihan yang berasal dari 9 perkebunan terbaik di Indonesia, kami olah dengan
                             sempurna, dengan tetap mempertahankan kualitas, aroma, dan rasanya. Setiap prosesnya kami
@@ -405,119 +407,138 @@
                             aria-label="Slide 3"></button>
                     </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active container-section" style="padding-top: 0 !important;">
+                <div class="carousel-inner overflow-hidden">
+                    <div class="carousel-item container-section active container-comment">
                         <div class="row">
                             <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
                                         <p class="text-regular text-color-tiga">Kopi Espresso adalah salah satu produk
                                             paling berkesan yang pernah saya coba.
                                             Rasanya mantap, kaya rasa, dan berenergi!</p>
-                                        <p class="text-semibold text-color-tiga">- Ega Pratama</p>
-                                        <hr>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Ega Pratama</p>
+                                            <hr>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Brownies nya enak, tekstur yang lembut
+                                            dengan manis yang pas sangat cocok untuk dinikmati dengan kopinya
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Anggi Reza</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Kopi nyaman diminum, salah satu kopi
+                                            yang gak buat asam lambung saya naik tapi kopinya tetap berasa.
+                                            Paling suka yang ice coffee karena rasa kopinya enak, manisnya juga pas
+                                            apalagi saat dingin.
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Nafiul</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item container-section container-comment">
+                        <div class="row">
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Menu favorit saya adalah Latte, rasanya
+                                            pas, tidak terlalu manis.
+                                            Sangat cocok dengan selera saya. Semoga ada menu baru lagi ya!
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Ivony Syabilla</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Americanonya mantap, selalu bisa bikin
+                                            melek ketika ngerjakan tugas!
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Afrizal Prayoga</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Pelayanan Ke konsumen sangat baik,
+                                            sangat jujur, fast respon, sangat sangat tidak mengecewakan.
+                                            Kualitas kopi terjaga, top recommended seller!
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Andini</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item container-section container-comment">
+                        <div class="row">
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Long black di cafe ini sangat sempurna,
+                                            dari rasa yang kuat dan warnanya yang hitam pekat, saya sangat suka!
+                                        </p>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Alif</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-3">
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
                                         <p class="text-regular text-color-tiga">Rasa kopinya enak dan benar-benar
                                             membangunkan semangat saya.
                                             Saya akan sangat merekomendasikannya kepada siapa pun yang mencari secangkir
                                             kopi yang enak.
                                             Sukses selalu!
                                         </p>
-                                        <p class="text-semibold text-color-tiga">- Faishal Firdaus</p>
-                                        <hr>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Faishal Firdaus</p>
+                                            <hr>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Kopi nyaman diminum, salah satu kopi
-                                            yang gak buat asam lambung saya naik tapi kopinya tetap berasa.
-                                            Paling suka yang ice coffee karena rasa kopinya enak, manisnya juga pas
-                                            apalagi saat dingin.
+                                <div class="card bg-sec-4-card shadow h-100">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="text-regular text-color-tiga">Coffee cream nya saya sangat suka dengan
+                                            rasa yang lembut dan manis.
                                         </p>
-                                        <p class="text-semibold text-color-tiga">- Nafiul</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item container-section" style="padding-top: 0 !important;">
-                        <div class="row mb-5">
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Menu favorit saya adalah Latte, rasanya
-                                            pas, tidak terlalu manis.
-                                            Sangat cocok dengan selera saya. Semoga ada menu baru lagi ya!
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Ivony Syabilla</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Americanonya mantap, selalu bisa bikin
-                                            melek ketika ngerjakan tugas!
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Afrizal Prayoga</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Pelayanan Ke konsumen sangat baik,
-                                            sangat jujur, fast respon, sangat sangat tidak mengecewakan.
-                                            Kualitas kopi terjaga, top recommended seller!
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Andini</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item container-section" style="padding-top: 0 !important;">
-                        <div class="row mb-5">
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Long black di cafe ini sangat sempurna,
-                                            dari rasa yang kuat dan warnanya yang hitam pekat, saya sangat suka!
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Alif</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Brownies nya enak, tekstur yang lembut
-                                            dengan manis yang pas sangat cocok untuk dinikmati dengan kopinya
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Anggi Reza</p>
-                                        <hr>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mt-3">
-                                <div class="card bg-sec-4-card shadow">
-                                    <div class="card-body">
-                                        <p class="text-regular text-color-tiga">Coffee cream nya saya sangat suka dengan rasa yang lembut dan manis.
-                                        </p>
-                                        <p class="text-semibold text-color-tiga">- Adrian Meilana</p>
-                                        <hr>
+                                        <div>
+                                            <p class="text-semibold text-color-tiga">- Adrian Meilana</p>
+                                            <hr>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
